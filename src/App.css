@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -18,8 +18,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -34,5 +33,107 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  font-family: open sans, helveticaneue, helvetica neue, Helvetica, Arial, sans-serif;
+  margin: 0px;
+  background-image: url('./images/bg.jpg');
+  background-repeat: repeat;
+}
+
+div {
+  display: block;
+}
+
+.active-nav {
+  background-color: #169fe6;
+}
+
+.floatr {
+  float: right;
+}
+img {
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+#wrapper, footer {
+  background-color: #fff;
+  width: 1020px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+}
+
+#blueline {
+  background-color: #169fe6;
+  height: 5px;
+}
+
+@media only screen and (max-width: 955px) and (min-width: 768px) {
+  #wrapper, footer {
+      width: 714px !important;
+      margin: 0 auto;
+  }
+  header .col-5 {
+      padding-right: 0px !important;
+  }
+  nav {
+      width: 734px !important;
+  }
+  nav::before {
+      top: 50px !important;
+  }
+  nav::after {
+      left: 724px !important;
+      top: 50px !important;
+  }
+
+  .owl-next {
+      top: 110px !important;
+      left: -140px !important;
+  }
+  
+  .owl-prev {
+      top: 110px !important;
+      left: -162px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  #wrapper, footer {
+      width: 420px !important;
+      margin: 0 auto;
+  }
+  #recent p{
+margin-bottom: 100px;
+  }
+  .owl-next {
+      top: -80px !important;
+      left: 35px !important;
+  }
+  
+  .owl-prev {
+      top: -80px !important;
+      left: 12px !important;
+  }
+}
+
+@media only screen and ( max-width: 767px) {
+  #logo-text, #social-media, #contact, .form-inline, nav {
+      display: none !important;
+  }
+  #select {
+      display: block !important;
+  }
+  #carousel-img {
+      width: 420px;
+      height: 185.294px;
   }
 }

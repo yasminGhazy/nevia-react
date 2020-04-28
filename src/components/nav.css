@@ -1,0 +1,64 @@
+.navbar-nav {
+    width: 100%;
+    float: left;
+}
+
+nav::before {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid #888;
+    border-top: 5px solid #888;
+    border-bottom: 5px solid transparent;
+    top: 50px;
+    position: absolute;
+    opacity: .5;
+}
+
+nav::after {
+    content: "";
+    border-left: 5px solid #888;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #888;
+    border-bottom: 5px solid transparent;
+    left: 1030px;
+    top: 50px;
+    position: absolute;
+    opacity: .5;
+}
+
+nav {
+    width: 1040px;
+    margin-left: -10px;
+}
+
+nav a {
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    padding: 15px 20px 16px;
+    opacity: 1;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #666;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:not(:first-child) a:hover {
+    background-color: #666;
+}
+
+.navbar {
+    padding: 0rem 0rem !important;
+}
+
+.dropdown-menu {
+    margin: 0px !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
