@@ -29,26 +29,27 @@ nav::after {
 nav {
     width: 1040px;
     margin-left: -10px;
-}
 
-nav a {
-    color: #fff;
-    font-size: 13px;
-    text-align: center;
-    padding: 15px 20px 16px;
-    opacity: 1;
-    text-decoration: none;
-    float: left;
-    border-right: 1px solid #666;
-}
+    a {
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        padding: 15px 20px 16px;
+        opacity: 1;
+        text-decoration: none;
+        float: left;
+        border-right: 1px solid #666;
+    }
 
-nav a:hover {
-    color: white;
-    text-decoration: none;
-}
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
 
-nav li:not(:first-child) a:hover {
-    background-color: #666;
+    li:not(:first-child) a:hover {
+        background-color: #666;
+    }
+
 }
 
 .navbar {

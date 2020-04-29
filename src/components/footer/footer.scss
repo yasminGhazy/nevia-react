@@ -1,0 +1,130 @@
+footer {
+    h4 {
+        color: #ffffff;
+        font-size: 16px;
+        margin: 0 0 15px;
+    }
+
+    span {
+        font-size: 14px;
+        color: #ffffff;
+        margin: 0 0 15px;
+    }
+
+    i {
+        padding: 0px;
+    }
+
+    .fa {
+        color: #ffffff;
+    }
+
+    #photo-stream img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footerlogo {
+        width: 100px;
+    }
+
+    #twitter p {
+        font-size: 12px;
+    }
+
+    #twitter small {
+        color: #999;
+        margin-top: 5px;
+    }
+
+    .fa-twitter {
+        opacity: .2;
+    }
+
+    .col-11 {
+        padding-left: 0px !important;
+    }
+}
+
+#upperfooter {
+    background: #4c4c4c;
+    padding: 30px 0 40px;
+    margin: 0 auto;
+    padding-left: 15px;
+
+    p {
+        color: #dddddd;
+        font-size: 14px;
+        padding-left: 2px;
+    }
+
+    img:not(.footerlogo) {
+        float: left;
+        width: 67px;
+        height: 67px;
+        border: 5px solid #424242;
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
+}
+
+#upperfooter {
+    img:not(.footerlogo):hover {
+        border: 5px solid #169fe6;
+    }
+    .col-sm-4 {
+        padding: 0px;
+    }
+}
+
+#lowerfooter {
+    background: #424242;
+    padding-top: 15px;
+    padding-left: 28px;
+
+    p {
+        font-size: 12px;
+        margin: 0px;
+        color: #aaaaaa;
+    }
+
+    a:not(#copyright) {
+        font-size: 11px;
+        text-decoration: none;
+        color: #aaaaaa;
+        padding: 0px 8px;
+        list-style: none;
+    }
+    
+    a:not(#copyright):hover {
+        color: #eeeeee;
+    }
+
+    ul {
+        padding: 5px;
+        padding-left: 5px;
+    }
+
+    li {
+        list-style: none;
+        border-left: 1px solid #505050;
+        line-height: 12px;
+    }
+
+    li:first-child {
+        border-left: none;
+    }
+
+    #copyright {
+        text-decoration: none;
+        color: #eeeeee;
+        font-size: 12px;
+        padding: 0px;
+    }
+
+    #email:hover {
+        color: #eeeeee;
+        cursor: pointer;
+    }
+
+}

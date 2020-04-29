@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../logo.PNG';
-import "./header.css"
+import logo from './../../images/logo.PNG';
+import "./header.scss"
 class Header extends Component {
     render() {
         return (
@@ -38,7 +38,7 @@ class Header extends Component {
                         </form>
                     </div>
                 </div>
-                {/* <div id="nav-selector" className="form-group">
+                <div id="nav-selector" className="form-group">
                     <select className="form-control" id="select">
                         <option>Menu</option>
                         <option>Home</option>
@@ -48,7 +48,7 @@ class Header extends Component {
                         <option>Shop</option>
                         <option>Blog</option>
                     </select>
-                </div> */}
+                </div>
             </div>
             </header>
         )

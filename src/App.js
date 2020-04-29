@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/header.js';
-import  Nav from './components/nav.js';
-import  Main from './components/main.js';
-import  Footer from './components/footer.js';
+import Header from './components/header/header.js';
+import  Nav from './components/navbar/nav.js';
+import  Main from './components/main/main.js';
+import  Footer from './components/footer/footer.js';
 
 import './App.css';
 

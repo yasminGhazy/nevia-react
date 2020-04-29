@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import "./main.css"
+import "./main.scss"
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import slide1 from '../images/slide1.PNG';
-import slide2 from '../images/slide2.PNG';
-import slide3 from '../images/slide3.PNG';
-import recent1 from '../images/recent1.PNG';
-import recent2 from '../images/recent2.PNG';
-import recent3 from '../images/recent3.PNG';
-import recent4 from '../images/recent4.PNG';
-import recent5 from '../images/recent5.PNG';
-import recent6 from '../images/recent6.PNG';
-import recent7 from '../images/recent7.PNG';
-import recent8 from '../images/recent8.PNG';
+import slide1 from './../../images/slide1.PNG';
+import slide2 from './../../images/slide2.PNG';
+import slide3 from './../../images/slide3.PNG';
+import recent1 from './../../images/recent1.PNG';
+import recent2 from './../../images/recent2.PNG';
+import recent3 from './../../images/recent3.PNG';
+import recent4 from './../../images/recent4.PNG';
+import recent5 from './../../images/recent5.PNG';
+import recent6 from './../../images/recent6.PNG';
+import recent7 from './../../images/recent7.PNG';
+import recent8 from './../../images/recent8.PNG';
 
 class Main extends Component {
     render() {
